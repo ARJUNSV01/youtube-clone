@@ -1,0 +1,60 @@
+.bbody{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 220px;
+    z-index: 100;
+    padding-top: 5px;
+    cursor: pointer;
+    border-right: 0.5px;
+    border-right-style: solid;
+    border-right-color: white;
+    box-shadow: 1px 1px 1px rgb(228, 226, 226);
+    
+}
+.sidebarlink{
+   
+    border-bottom: 1px;
+    
+    height: 40px;
+   background-color: white;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    
+}
+.sidebarlink:hover{
+    background-color: lightgray;
+}
+.sidebarlink img{
+    height: 30px;
+    margin-left: 15px;
+}
+.sidebarlink div{
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 13px;
+
+}
+.sidebardown{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.sidebardown div{
+height: 10px;
+font-size: 13px;
+margin-left: 15px;
+}
+.sidebardown:hover{
+    background-color:lightgray;
+}
